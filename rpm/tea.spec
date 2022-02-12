@@ -30,7 +30,7 @@ on one or more Gitea instances and provides local helpers like
 make
 
 %install
-install -D -m 755 gitea $RPM_BUILD_ROOT%{_bindir}/tea
+install -D -m 755 tea $RPM_BUILD_ROOT%{_bindir}/tea
 
 %files
 %{_bindir}/tea
