@@ -1,6 +1,6 @@
 # TODO: Add the autocomplete scripts
 %global major_version 0
-%global minor_version 8
+%global minor_version 9
 %global micro_version 0
 %define debug_package %{nil}
 
@@ -36,5 +36,8 @@ install -D -m 755 tea $RPM_BUILD_ROOT%{_bindir}/tea
 %{_bindir}/tea
 
 %changelog
+* Wed Jan 11 2023 Louis Abel <tucklesepk@gmail.com> - 0.9.0-1
+- Rebase to 0.9.0
+
 * Fri Feb 11 2022 Louis Abel <tucklesepk@gmail.com> - 0.8.0-1
 - Initial release of 0.8.0 for Fedora and Enterprise Linux
