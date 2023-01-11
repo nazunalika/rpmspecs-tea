@@ -27,6 +27,7 @@ on one or more Gitea instances and provides local helpers like
 %setup -q -n %{name}
 
 %build
+go mod vendor
 make
 
 %install
