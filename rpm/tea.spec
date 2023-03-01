@@ -1,7 +1,7 @@
 # TODO: Add the autocomplete scripts
 %global major_version 0
 %global minor_version 9
-%global micro_version 0
+%global micro_version 2
 %define debug_package %{nil}
 
 Name:		tea
@@ -37,6 +37,9 @@ install -D -m 755 tea $RPM_BUILD_ROOT%{_bindir}/tea
 %{_bindir}/tea
 
 %changelog
+* Tue Feb 28 2023 Louis Abel <tucklesepk@gmail.com> - 0.9.2-1
+- Rebase to 0.9.2
+
 * Wed Jan 11 2023 Louis Abel <tucklesepk@gmail.com> - 0.9.0-1
 - Rebase to 0.9.0
 
